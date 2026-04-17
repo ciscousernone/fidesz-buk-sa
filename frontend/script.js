@@ -6,6 +6,7 @@ function orangetoblue() {
   let color2 = 81;
   let color3 = 0;
   let stage = 0;
+  let timer = 0;
   clearInterval(id);
   id = setInterval(frame,0.5);
   function frame() {
@@ -14,6 +15,7 @@ function orangetoblue() {
 color1 = 255;
 color2 = 81;
 color3 = 0;
+timer = 0;
    } else {
 //        color1=color1+0.5;
 //        color2=color2+1;
@@ -23,13 +25,15 @@ color3 = 0;
 const test = elem.style.color = "rgb(" + color1+ ","+ color2+ ","+ color3+")";
 test;
             if (stage ==0) {
-            if(color2 == 255){
-              if(color1 ==0){
-                if (color3 == 255){
-                  stage = 1
-                }else{color3=color3+1;}
-              }else {color1=color1-1;}
-            } else {color2=color2+1;}
+              if (timer == 500){
+                if(color2 == 255){
+                  if(color1 ==0){
+                    if (color3 == 255){
+                      stage = 1
+                    }else{color3=color3+1;}
+                  }else {color1=color1-1;}
+                } else {color2=color2+1;}
+              } else {timer=timer+0.5;}
           } else {
             if (color2 == 162){
               
@@ -41,3 +45,23 @@ test;
 }
 orangetoblue()
 }
+{
+function lightmode(){
+	const elem = document.getElementById("background");
+	const box = document.getElementsByClassName("container");
+  elem.classList.toggle("whbody")
+  box[0].classList.toggle("whcontainer")
+	//let mode = 0;  //0 = light 1=dark
+	//if (mode==0){
+		//elem.style.backgroundImage = "url(/images/whitecheckerboard.png)";
+		//elem.style.color = "black";
+		//box[0].style.backgroundColor = "rgba(255, 255, 255, 0.699)";
+	//} //else{
+		//elem.style.backgroundImage = "url(/images/graycheckerboard.png)";
+		//elem.style.color = "wheat";
+		//box[0].style.backgroundColor = "gray";
+	//}
+}
+
+}
+
