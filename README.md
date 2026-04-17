@@ -10,4 +10,5 @@ ezeket kellesz majd berakni
 kepeket be kell rakni
 szoveget kellesz kesziteni
 okok amiert fidesz elbukot és a tisza miert nyert
+add logo to bottom of the screen on the right
 #--------------
