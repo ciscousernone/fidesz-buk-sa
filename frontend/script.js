@@ -64,4 +64,11 @@ function lightmode(){
 }
 
 }
+{
+function orangemode(){
+	const elem = document.getElementsByClassName("fideszlogo");
+
+  elem[0].classList.toggle("rottenorange")
+}
+}
 

@@ -21,3 +21,35 @@ h1{
 #specialtext{
     cursor: pointer;
 }
+.tiszalogo{
+    position: fixed;
+    width: 100px;
+    height: 100px;
+    background-image: url(/images/TISZA_2024.svg.webp);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    bottom: 0px;
+    right: 0px;
+}
+.fideszlogo{
+    position: fixed;
+    width: 100px;
+    height: 100px;
+    background-image: url(/images/Fidesz_2015.svg.webp);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    bottom: 0px;
+    left: 0px;
+    cursor: pointer;
+}
+.rottenorange{
+    position: fixed;
+    width: 100px;
+    height: 100px;
+    background-image: url(/images/OIP-3437628257.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    bottom: 0px;
+    left: 0px;
+    cursor: pointer;
+}
