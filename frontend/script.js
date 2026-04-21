@@ -61,6 +61,7 @@ function lightmode(){
 		//elem.style.color = "wheat";
 		//box[0].style.backgroundColor = "gray";
 	//}
+  //whoolooloo
 }
 
 }
