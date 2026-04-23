@@ -55,7 +55,7 @@ function lightmode(){
 	//if (mode==0){
 		//elem.style.backgroundImage = "url(/images/whitecheckerboard.png)";
 		//elem.style.color = "black";
-		//box[0].style.backgroundColor = "rgba(255, 255, 255, 0.699)";
+		//box[0].style.backgroundColor = "rgba(255, 255, 255, 0.7)";
 	//} //else{
 		//elem.style.backgroundImage = "url(/images/graycheckerboard.png)";
 		//elem.style.color = "wheat";
