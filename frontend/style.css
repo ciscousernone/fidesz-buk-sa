@@ -11,12 +11,12 @@ background-image: url(/images/whitecheckerboard.png);
 color: black;
 }
 .whcontainer{
-    background-color:rgba(255, 255, 255, 0.7);
+    background-color:rgba(255, 255, 255, 0.5);
     display: block;
     margin: auto;
 }
 header{
-    background-color: rgba(128, 128, 128, 0.7);
+    background-color: rgba(128, 128, 128, 0.6);
     display: block;
     margin: auto;
 }
@@ -60,4 +60,20 @@ h1{
 .rottenorange{
     background-image: url(/images/OIP-3437628257.jpg);
     cursor: pointer;
+}
+table,th,td,tr{
+    border: solid 2px black;
+}
+.clown{
+    background-image: url(/images/clown.jpg);
+    background-size: 100% 50px;
+    background-position: 1px;
+    color: black;
+    background-repeat: no-repeat;
+}
+.image1{
+    background-image: url(/images/Képernyőkép\ 2026-04-17\ 102930.png);
+    background-position: 150px 0px;
+    background-repeat: no-repeat;
+    background-size: 270px;
 }
